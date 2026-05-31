@@ -1,1 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hotel The Madhusudanam Palace</title>
 
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+<nav>
+<h1>Hotel The Madhusudanam Palace</h1>
+
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#rooms">Rooms</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#booking">Booking</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+</header>
+
+<section id="home" class="hero">
+
+<h2>Welcome To Hotel The Madhusudanam Palace</h2>
+
+<p>Luxury Rooms • Banquet Hall • Family Stay</p>
+
+<a href="#booking" class="btn">
+Book Now
+</a>
+
+</section>
+
+<section id="rooms">
+
+<h2>Our Rooms</h2>
+
+<div class="room-card">
+<h3>AC Room</h3>
+<p>Comfortable AC Room</p>
+</div>
+
+<div class="room-card">
+<h3>Non AC Room</h3>
+<p>Budget Friendly Room</p>
+</div>
+
+</section>
+
+<section id="gallery">
+
+<h2>Gallery</h2>
+
+<div class="gallery">
+
+<img src="https://picsum.photos/400/300?1">
+
+<img src="https://picsum.photos/400/300?2">
+
+<img src="https://picsum.photos/400/300?3">
+
+<img src="https://picsum.photos/400/300?4">
+
+</div>
+
+</section>
+
+<section id="booking">
+
+<h2>Room Booking</h2>
+
+<form id="bookingForm">
+
+<input type="text"
+placeholder="Full Name"
+required>
+
+<input type="tel"
+placeholder="Mobile Number"
+required>
+
+<input type="date"
+required>
+
+<input type="date"
+required>
+
+<select>
+
+<option>AC Room</option>
+
+<option>Non AC Room</option>
+
+</select>
+
+<button type="submit">
+Book Now
+</button>
+
+</form>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact Us</h2>
+
+<p>📞 9413186156</p>
+
+<p>📞 8619687476</p>
+
+<p>📞 9079828488</p>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
